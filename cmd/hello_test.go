@@ -8,7 +8,7 @@ func TestHello(t *testing.T) {
 		input    string
 		expected string
 	}{
-		{"Test with a valid name", "Alice", "Hello, Alice"},
+		{"Test with a valid name", "Alice", "Hello, Bob"},
 		{"Test with an empty name", "", "Hello, "},
 		{"Test with a space in the name", "Bob Smith", "Hello, Bob Smith"},
 	}
